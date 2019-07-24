@@ -26,11 +26,7 @@ For the roadmap, check [issue #3](https://github.com/angular-ui/ui-select/issues
 
 ### npm
 ```
-$ npm install ui-select
-```
-### bower
-```
-$ bower install angular-ui-select
+$ npm install ct-ui-select
 ```
 
 ## Development
