@@ -522,7 +522,7 @@ uis.controller('uiSelectCtrl',
 
     var key = e.which;
 
-    if (~[KEY.ENTER,KEY.ESC].indexOf(key)){
+    if (~[KEY.ESC].indexOf(key)){
       e.preventDefault();
       e.stopPropagation();
     }
@@ -566,7 +566,7 @@ uis.controller('uiSelectCtrl',
       _ensureHighlightVisible();
     }
 
-    if (key === KEY.ENTER || key === KEY.ESC) {
+    if (key === KEY.ESC) {
       e.preventDefault();
       e.stopPropagation();
     }
