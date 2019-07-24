@@ -97,7 +97,7 @@ uis.directive('uiSelectSingle', ['$timeout','$compile', function($timeout, $comp
           return;
         }
 
-        if (e.which == KEY.DOWN  || e.which == KEY.UP || e.which == KEY.ENTER || e.which == KEY.SPACE){
+        if (e.which == KEY.DOWN  || e.which == KEY.UP  || e.which == KEY.SPACE){
           e.preventDefault();
           e.stopPropagation();
           $select.activate();
@@ -108,7 +108,7 @@ uis.directive('uiSelectSingle', ['$timeout','$compile', function($timeout, $comp
 
       focusser.bind("keyup input", function(e){
 
-        if (e.which === KEY.TAB || KEY.isControl(e) || KEY.isFunctionKey(e) || e.which === KEY.ESC || e.which == KEY.ENTER || e.which === KEY.BACKSPACE) {
+        if (e.which === KEY.TAB || KEY.isControl(e) || KEY.isFunctionKey(e) || e.which === KEY.ESC || e.which === KEY.BACKSPACE) {
           return;
         }
 
