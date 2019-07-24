@@ -90,7 +90,7 @@ if (angular.element.prototype.closest === undefined) {
 
 var latestId = 0;
 
-var uis = angular.module('ui.select', [])
+var uis = angular.module('ct-ui.select', [])
 
 .constant('uiSelectConfig', {
   theme: 'bootstrap',
@@ -109,7 +109,7 @@ var uis = angular.module('ui.select', [])
 
 // See Rename minErr and make it accessible from outside https://github.com/angular/angular.js/issues/6913
 .service('uiSelectMinErr', function() {
-  var minErr = angular.$$minErr('ui.select');
+  var minErr = angular.$$minErr('ct-ui.select');
   return function() {
     var error = minErr.apply(this, arguments);
     var message = error.message.replace(new RegExp('\nhttp://errors.angularjs.org/.*'), '');
