@@ -42,11 +42,10 @@ $ bower install angular-ui-select
 
 ### Development Commands
 
-* `gulp` to jshint, build and test
-* `gulp build` to jshint and build
-* `gulp test` for one-time test with karma (also build and jshint)
-* `gulp watch` to watch src files to jshint, build and test when changed
-* `gulp docs` build docs and examples
+* `npm run build` to jshint and build
+* `npm run test` for one-time test with karma (also build and jshint)
+* `npm run watch` to watch src files to jshint, build and test when changed
+* `npm run docs` build docs and examples
 
 ## Contributing
 
