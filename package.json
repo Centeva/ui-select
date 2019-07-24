@@ -1,13 +1,13 @@
 {
-  "name": "ui-select",
+  "name": "ct-ui-select",
   "main": "./index.js",
-  "author": "http://github.com/angular-ui/ui-select/graphs/contributors",
-  "homepage": "http://github.com/angular-ui/ui-select",
+  "author": "http://github.com/centeva/ui-select/graphs/contributors",
+  "homepage": "http://github.com/centeva/ui-select",
   "repository": {
-    "url": "git://github.com/angular-ui/ui-select.git"
+    "url": "git://github.com/centeva/ui-select.git"
   },
   "style": "dist/select.css",
-  "version": "0.17.1",
+  "version": "1.0.0",
   "devDependencies": {
     "angular": "^1.2.18",
     "angular-mocks": "^1.2.18",
